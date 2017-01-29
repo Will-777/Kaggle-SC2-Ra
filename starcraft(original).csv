@@ -1,4 +1,4 @@
- "GameID","LeagueIndex","Age","HoursPerWeek","TotalHours","APM","SelectByHotkeys","AssignToHotkeys","UniqueHotkeys","MinimapAttacks","MinimapRightClicks","NumberOfPACs","GapBetweenPACs","ActionLatency","ActionsInPAC","TotalMapExplored","WorkersMade","UniqueUnitsMade","ComplexUnitsMade","ComplexAbilityUsed","MaxTimeStamp"
+"GameID","LeagueIndex","Age","HoursPerWeek","TotalHours","APM","SelectByHotkeys","AssignToHotkeys","UniqueHotkeys","MinimapAttacks","MinimapRightClicks","NumberOfPACs","GapBetweenPACs","ActionLatency","ActionsInPAC","TotalMapExplored","WorkersMade","UniqueUnitsMade","ComplexUnitsMade","ComplexAbilityUsed","MaxTimeStamp"
 52,5,27,10,3000,143.718,0.003515159,0.000219697,5.49e-05,0.000109849,0.000392317,0.004849036,32.6677,40.8673,4.7508,0.000219697,0.0013966,4.71e-05,0,0,127448
 55,5,23,10,5000,129.2322,0.003303812,0.000259462,6.92e-05,0.000294057,0.000432436,0.004307064,32.9194,42.3454,4.8434,0.000380544,0.0011935,8.65e-05,0,0.00020757,57812
 56,4,30,10,200,69.9612,0.001101091,0.00033557,4.19e-05,0.000293624,0.000461409,0.002925755,44.6475,75.3548,4.043,0.000230705,0.00074455,6.29e-05,0,0.00018876,95360
