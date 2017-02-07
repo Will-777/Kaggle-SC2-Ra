@@ -17,6 +17,7 @@ import pandas as pd
 from numpy import *
 from matplotlib import *
 
+
 # write the path
 my_reviews = pd.read_csv("starcraft(original).csv")
 
@@ -35,6 +36,48 @@ my_reviews.iloc[0:15,:]
 
 #Entire dataf Frame
 #my_reviews.iloc[:,:]
+
+
+for items in my_reviews[0:0]:
+    print(items + " -Type- " + " xxxxxxxx")
+
+
+
+# to get the same output with R command "  "
+my_reviews.describe()
+
+# to get the almost same output with R command "  "
+# but value are missing
+my_reviews.dtypes
+
+# to get exactly same output wiht R command " "
+rev_dtypes = my_reviews.dtypes
+
+
+#how to run
+nice_Rprint_out(my_reviews)
+
+
+def nice_Rprint_out(df):
+    """
+    :param df:
+    :return: print out of columns, type and few keys value like R command str(df)
+    """
+    my_shape = df.shape
+    print("## data.frame: " + str(my_shape[0]) + " obs. of  " + str(my_shape[1]) + " variables:")
+    col_id = 0
+    for col in df.columns:
+        my_values_str = ""
+        for i in range(0,5):
+            my_values_str += str(df.values[i,col_id])+ " "
+        val_type = str(df.values[i,col_id].dtype)
+        #print(col + " " + val_type + " " + my_values_str)
+        print(col, "("+ val_type +")", my_values_str +"...", sep=" ")
+        col_id += 1
+    return "Task done."
+
+
+
 
 # >>> my_reviews.min()
 """
